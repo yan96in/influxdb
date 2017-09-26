@@ -448,7 +448,7 @@ func (data *Data) DropContinuousQuery(database, name string) error {
 			return nil
 		}
 	}
-	return ErrContinuousQueryNotFound
+	return nil
 }
 
 // validateURL returns an error if the URL does not have a port or uses a scheme other than UDP or HTTP.
