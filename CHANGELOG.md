@@ -60,6 +60,7 @@
 - [#8741](https://github.com/influxdata/influxdb/issues/8741): Fix increased memory usage in cache and wal readers
 - [#8678](https://github.com/influxdata/influxdb/issues/8678): Ensure time and tag-based condition can be used with tsi1 index when deleting.
 - [#8848](https://github.com/influxdata/influxdb/issues/8848): Prevent deadlock when doing math on the result of a subquery.
+- [#8794](https://github.com/influxdata/influxdb/issues/8794): Don't return an error when dropping a retention policy on a non-existent database.
 
 ## v1.3.4 [unreleased]
 
