@@ -2,7 +2,11 @@
 
 ### Breaking changes
 
-* The default logging format has been changed. See [#9055](https://github.com/influxdata/influxdb/pull/9055) for details.
+* The default logging format has been changed to logfmt. See [#9055](https://github.com/influxdata/influxdb/pull/9055) and [#9056](https://github.com/influxdata/influxdb/pull/9056) for details.
+
+### Features
+
+- [#9056](https://github.com/influxdata/influxdb/pull/9056): Change default logging format and add logging configuration.
 
 ### Features
 
