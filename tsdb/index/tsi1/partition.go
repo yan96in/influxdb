@@ -605,7 +605,7 @@ func (i *Partition) createSeriesListIfNotExists(names [][]byte, tagsSlice []mode
 	return i.CheckLogFile()
 }
 
-func (i *Partition) DropSeries(seriesID uint64, ts int64) error {
+func (i *Partition) DropSeries(seriesID uint64) error {
 	// TODO: Use ts.
 
 	// Delete series from index.
